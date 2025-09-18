@@ -26,37 +26,35 @@ It renders a personalized 3D ID card with your name, batch, profile image, QR co
 ---
 
 ## 📂 Folder Structure
-📁 3D-ID-Card-Main/
-├── 📁 node_modules/
-├── 📁 public/
-├── 📁 src/
-│   ├── 📁 idCard/
-│   │   ├── 📁 components/
+
+📁 3D-ID-Card-Main
+├── 📁 node_modules
+├── 📁 public
+├── 📁 src
+│   ├── 📁 idCard
+│   │   ├── 📁 components
 │   │   │   ├── Card.tsx
 │   │   │   ├── CardTexture.tsx
 │   │   │   ├── CreateText.tsx
 │   │   │   └── Experience.tsx
-│   │   ├── 📁 hook/
+│   │   ├── 📁 hook
 │   │   │   └── useBarcodeAndQRCode.ts
-│   │   ├── 📁 lib/
+│   │   ├── 📁 lib
 │   │   │   └── RoundedPlaneGeometry.ts
-│   │   ├── 📁 types/
+│   │   ├── 📁 types
 │   │   │   ├── types.d.ts
 │   │   │   └── IdCard.tsx
 │   │   ├── App.tsx
 │   │   ├── index.css
 │   │   ├── main.tsx
 │   │   └── vite-env.d.ts
-│   ├── .gitignore
-│   ├── .hintrc
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── tsconfig.app.json
-│   ├── tsconfig.json
-│   ├── tsconfig.node.json
-│   └── vite.config.ts
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+
 
 
 📜 License
