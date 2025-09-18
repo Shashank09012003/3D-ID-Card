@@ -26,7 +26,7 @@ It renders a personalized 3D ID card with your name, batch, profile image, QR co
 ---
 
 ## 📂 Folder Structure
-
+```
 📁 3D-ID-Card-Main
 ├── 📁 node_modules
 ├── 📁 public
@@ -55,7 +55,7 @@ It renders a personalized 3D ID card with your name, batch, profile image, QR co
 ├── tsconfig.json
 └── vite.config.ts
 
-
+```
 
 📜 License
 
